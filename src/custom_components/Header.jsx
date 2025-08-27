@@ -23,10 +23,6 @@ const Header = () => {
     <header className="flex items-center justify-between h-20 px-6 bg-card border-b border-border/50 shadow-sm">
       {/* Left Section */}
       <div className="flex items-center space-x-6">
-        <h2 className="text-2xl font-bold text-red-600 tracking-tight">
-          Dashboard
-        </h2>
-
         {/* Mobile Nav Dropdown */}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
@@ -53,6 +49,9 @@ const Header = () => {
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
+        <h2 className="text-2xl font-bold text-red-600 tracking-tight">
+          Dashboard
+        </h2>
       </div>
 
       {/* Right Section */}
